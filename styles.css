@@ -1,0 +1,128 @@
+body {
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-screen {
+    position: relative;
+    margin: auto;
+    display: border-box;
+    width: 25%;
+    margin-top: 20vh;
+    padding: 35px;
+    padding-right: 25px;
+    text-wrap: wrap;
+    border-radius: 2rem;
+    background-image: linear-gradient(hsl(213, 19%, 18%), hsl(219, 27%, 12%));
+
+    color: white;
+}
+
+.star-icon {
+    border-radius: 50%;
+    background-color: hsl(215, 18%, 19%);
+    width: 12%;
+    aspect-ratio: 1;
+}
+
+.star-icon img {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    padding-left: 30%;
+    padding-top: 30%;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+    padding-right: 12px;
+}
+
+.ratingbuttons button {
+    border: none;
+    border-radius: 50%;
+    width: 14%;
+    aspect-ratio: 1;
+    margin-right: 18px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    background-color: hsl(215, 18%, 19%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    .ratingbuttons button {
+        margin-right: 14px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ratingbuttons button {
+        margin-right: 28px;
+        margin-bottom: 10px;
+    }
+}
+
+.ratingbuttons button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+}
+
+.ratingbuttons button.active {
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+}
+
+.submit {
+    width: 95%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: bold;
+    padding: 15px;
+    font-size: 14px;
+    color: hsl(216, 12%, 8%);
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: white;
+}
+
+.thankyou-screen {
+    position: relative;
+    margin: auto;
+    width: 24%;
+    margin-top: 20vh;
+    padding: 30px;
+    text-wrap: wrap;
+    border-radius: 2rem;
+    background-image: linear-gradient(hsl(213, 19%, 18%), hsl(219, 27%, 12%));
+    text-align: center;
+    color: white;
+}
+
+.ratingcon {
+    background-color: hsl(215, 18%, 19%);
+    color:hsl(25, 97%, 53%);
+    margin-top: 30px;
+    padding: 8px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 2rem;
+}
+
+.thankyou-screen p {
+    padding: 10px;
+}
